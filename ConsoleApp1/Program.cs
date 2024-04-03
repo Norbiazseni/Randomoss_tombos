@@ -27,6 +27,22 @@ namespace ConsoleApp1
             }
             */
 
+            bool paros_e = false;
+
+            for (int i = 0; i < szamok.Length; i++)
+            {
+                if (szamok[i] % 2 == 0)
+                {
+                    paros_e = true;
+                }
+            }
+            if (paros_e==true) {
+
+                Console.WriteLine("van benne páros szám");
+            
+            
+            }
+
 
             Console.WriteLine("\nNyomjad neki");
             Console.ReadKey();
