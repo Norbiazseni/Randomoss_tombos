@@ -27,6 +27,8 @@ namespace ConsoleApp1
             }
             */
 
+            //Adrián
+
             bool paros_e = false;
 
             for (int i = 0; i < szamok.Length; i++)
@@ -39,8 +41,6 @@ namespace ConsoleApp1
             if (paros_e==true) {
 
                 Console.WriteLine("van benne páros szám");
-            
-            
             }
 
 
